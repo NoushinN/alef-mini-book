@@ -1,0 +1,1 @@
+{{ define "main" }}<main class="site-home"><h1>{{ .Title }}</h1>{{ .Content }}<ol>{{ range .Pages.ByWeight }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a> · {{ .Params.pages }}</li>{{ end }}</ol></main>{{ end }}

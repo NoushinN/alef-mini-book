@@ -1,0 +1,10 @@
+baseURL: /
+languageCode: en
+title: It Starts with Alef
+disableKinds: [taxonomy, term, RSS, sitemap]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  author: A World in Alef
